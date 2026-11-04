@@ -1,0 +1,30 @@
+# Android / Gradle
+.gradle/
+**/build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Signing keys
+*.jks
+*.keystore
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Gowin generated files
+**/impl/
+**/temp/
+**/log/
+
+# Operating system
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Archives
+*.rar
+*.7z

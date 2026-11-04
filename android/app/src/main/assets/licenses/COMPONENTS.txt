@@ -1,0 +1,51 @@
+Third-party components distributed with HallPad
+
+M3X (Material bundle, Backdrop, DataStore integration)
+Copyright (c) 2025 LTFan
+MIT License; upstream Material-derived portions additionally use Apache-2.0.
+https://github.com/xfqwdsj/m3-extended
+https://github.com/xfqwdsj/m3-extended/blob/main/LICENSE
+See M3X-MIT.txt and AndroidX-Apache-2.0.txt.
+
+AndroidX / Jetpack Compose / Material 3 / Activity / Lifecycle / Core / DataStore
+The Android Open Source Project and respective contributors
+Apache License, Version 2.0
+https://github.com/androidx/androidx
+https://github.com/androidx/androidx/blob/androidx-main/LICENSE.txt
+See AndroidX-Apache-2.0.txt and extracted dependency NOTICE files.
+
+Compose Multiplatform
+JetBrains s.r.o. and contributors
+Apache License, Version 2.0
+https://github.com/JetBrains/compose-multiplatform/blob/master/LICENSE.txt
+See Compose-Multiplatform-Apache-2.0.txt.
+
+Kotlin standard library
+JetBrains s.r.o. and Kotlin contributors
+Apache License, Version 2.0
+https://github.com/JetBrains/kotlin/blob/master/license/LICENSE.txt
+See Kotlin-Apache-2.0.txt.
+
+Kotlin Coroutines
+JetBrains s.r.o. and Kotlin contributors
+Apache License, Version 2.0
+https://github.com/Kotlin/kotlinx.coroutines/blob/master/LICENSE.txt
+See Coroutines-Apache-2.0.txt.
+
+Material Icons
+Google / The Material Design Authors
+Apache License, Version 2.0
+https://github.com/google/material-design-icons
+See MaterialIcons.txt.
+
+DejaVu Sans Mono (subset)
+DejaVu fonts team; Bitstream Vera copyright notices retained in DejaVu.txt.
+https://dejavu-fonts.github.io/License.html
+See DejaVu.txt.
+
+Exact resolved runtime dependencies are recorded by each build in build-info.properties.
+Embedded LICENSE, NOTICE and COPYING files are copied from runtime JAR/AAR archives
+(including classes.jar inside AARs) into licenses/dependencies without modification.
+The extraction report records archives that do not embed notices; the report itself
+is not a license declaration. This list covers the verified upstream components,
+not an assertion that every possible future dependency uses the same licenses.

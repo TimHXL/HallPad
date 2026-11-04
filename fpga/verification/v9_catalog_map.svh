@@ -1,0 +1,21 @@
+function automatic integer page_for(input[31:0]lba);begin case(lba)
+32'd0:page_for=0;
+32'd32:page_for=1;
+32'd632:page_for=2;
+32'd633:page_for=3;
+32'd634:page_for=4;
+32'd635:page_for=5;
+32'd636:page_for=6;
+32'd637:page_for=7;
+32'd638:page_for=8;
+32'd639:page_for=9;
+32'd640:page_for=10;
+32'd641:page_for=11;
+32'd642:page_for=12;
+32'd643:page_for=13;
+32'd644:page_for=14;
+32'd645:page_for=15;
+32'd646:page_for=16;
+32'd647:page_for=17;
+32'd648:page_for=18;
+default:page_for=-1;endcase end endfunction

@@ -1,0 +1,68 @@
+{
+  "groups": [
+    {
+      "start_ms": 0,
+      "duration_ms": 400,
+      "keys": [
+        20
+      ],
+      "velocity": 100
+    },
+    {
+      "start_ms": 700,
+      "duration_ms": 400,
+      "keys": [
+        19
+      ],
+      "velocity": 100
+    },
+    {
+      "start_ms": 1400,
+      "duration_ms": 400,
+      "keys": [
+        18
+      ],
+      "velocity": 100
+    },
+    {
+      "start_ms": 2100,
+      "duration_ms": 400,
+      "keys": [
+        17
+      ],
+      "velocity": 100
+    },
+    {
+      "start_ms": 2800,
+      "duration_ms": 400,
+      "keys": [
+        16
+      ],
+      "velocity": 100
+    },
+    {
+      "start_ms": 3500,
+      "duration_ms": 400,
+      "keys": [
+        15
+      ],
+      "velocity": 100
+    },
+    {
+      "start_ms": 4200,
+      "duration_ms": 400,
+      "keys": [
+        14
+      ],
+      "velocity": 100
+    },
+    {
+      "start_ms": 4900,
+      "duration_ms": 1000,
+      "keys": [
+        13
+      ],
+      "velocity": 100
+    }
+  ]
+}

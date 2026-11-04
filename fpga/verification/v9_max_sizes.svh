@@ -1,0 +1,1 @@
+localparam SIZE=129680,SELECTED_SIZE=232;

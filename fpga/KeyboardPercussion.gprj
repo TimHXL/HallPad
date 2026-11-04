@@ -1,0 +1,103 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5AST-138C" pn="GW5AST-LV138PG484AC1/I0">gw5ast138c-007</Device>
+    <FileList>
+<File path="src/drum_slot5ms.v" type="file.verilog" enable="1"/>
+        <File path="src/adc_stream_guard.v" type="file.verilog" enable="1"/>
+        <File path="src/adc_data_filter.v" type="file.verilog" enable="1"/>
+        <File path="src/adc_data_top.v" type="file.verilog" enable="1"/>
+        <File path="src/adc_scan.v" type="file.verilog" enable="1"/>
+        <File path="src/adsr_envelope.v" type="file.verilog" enable="1"/>
+        <File path="src/amplitude_scaler.v" type="file.verilog" enable="1"/>
+        <File path="src/audio_clock_gen.v" type="file.verilog" enable="1"/>
+        <File path="src/audio_engine_top.v" type="file.verilog" enable="1"/>
+        <File path="src/audio_volume.v" type="file.verilog" enable="1"/>
+        <File path="src/dds_phase.v" type="file.verilog" enable="1"/>
+        <File path="src/display_spi_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/envelope_scaler.v" type="file.verilog" enable="1"/>
+        <File path="src/gc9a01_driver.v" type="file.verilog" enable="1"/>
+        <File path="src/gc9a01_init_rom.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c_master.v" type="file.verilog" enable="1"/>
+        <File path="src/i2s_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/joystick_pitch_bend.v" type="file.verilog" enable="1"/>
+        <File path="src/key_calibrate.v" type="file.verilog" enable="1"/>
+        <File path="src/key_calibration_preset.v" type="file.verilog" enable="1"/>
+        <File path="src/key_channel_map.v" type="file.verilog" enable="1"/>
+        <File path="src/key_event.v" type="file.verilog" enable="1"/>
+        <File path="src/key_event_fifo.v" type="file.verilog" enable="1"/>
+        <File path="src/keyboard_button.v" type="file.verilog" enable="1"/>
+        <File path="src/keyboard_cal_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/keyboard_light_runtime.v" type="file.verilog" enable="1"/>
+        <File path="src/keyboard_menu_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/keyboard_menu_renderer.v" type="file.verilog" enable="1"/>
+        <File path="src/keyboard_rgb_chain.v" type="file.verilog" enable="1"/>
+        <File path="src/keyboard_ripple.v" type="file.verilog" enable="1"/>
+        <File path="src/keyboard_ripple_envelope.v" type="file.verilog" enable="1"/>
+        <File path="src/keyboard_status_led.v" type="file.verilog" enable="1"/>
+        <File path="src/keyboard_top.v" type="file.verilog" enable="1"/>
+        <File path="src/menu_font5x7.v" type="file.verilog" enable="1"/>
+        <File path="src/piano35_sine_lut.v" type="file.verilog" enable="1"/>
+        <File path="src/piano35_voice.v" type="file.verilog" enable="1"/>
+        <File path="src/rotary_encoder.v" type="file.verilog" enable="1"/>
+        <File path="src/sample_tick_48k.v" type="file.verilog" enable="1"/>
+        <File path="src/sample_tick_generator.v" type="file.verilog" enable="1"/>
+        <File path="src/sampling_controls.v" type="file.verilog" enable="1"/>
+        <File path="src/sine_lut.v" type="file.verilog" enable="1"/>
+        <File path="src/test_audio_effects.v" type="file.verilog" enable="1"/>
+        <File path="src/test_instrument_voice.v" type="file.verilog" enable="1"/>
+        <File path="src/timbre_wave_lut.v" type="file.verilog" enable="1"/>
+        <File path="src/tlv320dac3100_init.v" type="file.verilog" enable="1"/>
+        <File path="src/voice.v" type="file.verilog" enable="1"/>
+        <File path="src/voice_adsr.v" type="file.verilog" enable="1"/>
+        <File path="src/voice_ctrl_bridge.v" type="file.verilog" enable="1"/>
+        <File path="src/KeyboardPercussion.cst" type="file.cst" enable="1"/>
+        <File path="src/main50MHz.sdc" type="file.sdc" enable="1"/>
+        <File path="src/audio_lookahead_limiter.v" type="file.verilog" enable="1"/>
+        <File path="src/music_reverb.v" type="file.verilog" enable="1"/>
+        <File path="src/audio_visualizer.v" type="file.verilog" enable="1"/>
+        <File path="src/audio_monitor_rom.v" type="file.verilog" enable="1"/>
+        <File path="src/hallpad_name_bridge.v" type="file.verilog" enable="1"/>
+        <File path="src/hallpad_ble_top.v" type="file.verilog" enable="1" />
+        <File path="src/hallpad_event_merge.v" type="file.verilog" enable="1" />
+        <File path="src/hallpad_frame_encoder.v" type="file.verilog" enable="1" />
+        <File path="src/hallpad_frame_parser.v" type="file.verilog" enable="1" />
+        <File path="src/hallpad_protocol_ctrl.v" type="file.verilog" enable="1" />
+        <File path="src/hallpad_uart.v" type="file.verilog" enable="1" />
+        <File path="src/hallpad_remote_pitch.v" type="file.verilog" enable="1"/>
+        <File path="src/hallpad_key_envelope.v" type="file.verilog" enable="1"/>
+        <File path="src/drum_math.v" type="file.verilog" enable="1"/>
+        <File path="src/drum_i2c_master.v" type="file.verilog" enable="1"/>
+        <File path="src/drum_mpu6050.v" type="file.verilog" enable="1"/>
+        <File path="src/drum_event_router.v" type="file.verilog" enable="1"/>
+        <File path="src/drum_synth.v" type="file.verilog" enable="1"/>
+        <File path="src/drum_parameter_rom.v" type="file.verilog" enable="1"/>
+        <File path="src/drum_sine_rom.v" type="file.verilog" enable="1"/>
+        <File path="src/drumsticks_top.v" type="file.verilog" enable="1"/>
+        <File path="src/hallpad_practice.v" type="file.verilog" enable="1"/>
+        <File path="src/hallpad_practice_runner.v" type="file.verilog" enable="1"/>
+        <File path="src/logger_calibration.v" type="file.verilog" enable="1"/>
+        <File path="src/pose_tracker.v" type="file.verilog" enable="1"/>
+        <File path="src/pose_hit.v" type="file.verilog" enable="1"/>
+        <File path="src/drum_cal_control.v" type="file.verilog" enable="1"/>
+        <File path="src/drum_hit_lights.v" type="file.verilog" enable="1"/>
+        <File path="src/logger_sd_spi.v" type="file.verilog" enable="1"/>
+        <File path="src/logger_spi_byte.v" type="file.verilog" enable="1"/>
+        <File path="src/hallpad_sd_catalog.v" type="file.verilog" enable="1"/>
+        <File path="src/hallpad_title_scroll.v" type="file.verilog" enable="1"/>
+        <File path="src/hallpad_sd_hotplug.v" type="file.verilog" enable="1"/>
+        <File path="src/hallpad_sd_bridge.v" type="file.verilog" enable="1"/>
+        <File path="src/hallpad_offline_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/drum_ripple_envelope.v" type="file.verilog" enable="1"/>
+        <File path="src/drum_strip_lights.v" type="file.verilog" enable="1"/>
+        <File path="src/drum_strip_rgb_ram.v" type="file.verilog" enable="1"/>
+    <File path="src/audio_lissajous.v" type="file.verilog" enable="1"/>
+<File path="src/audio_monitor_peaks.v" type="file.verilog" enable="1"/>
+<File path="src/keyboard_response_monitor.v" type="file.verilog" enable="1"/>
+<File path="src/hallpad_hpg3.v" type="file.verilog" enable="1"/>
+<File path="src/hallpad_title_preview.v" type="file.verilog" enable="1"/>
+<File path="src/hallpad_offline_layout.v" type="file.verilog" enable="1"/>
+</FileList>
+</Project>
